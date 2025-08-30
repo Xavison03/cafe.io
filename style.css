@@ -1,0 +1,141 @@
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.icon2
+{
+    margin-top: 5px;
+}
+.icon3
+{
+    margin-top: 5px;
+}
+.icon4
+{
+    margin-top: 5px;
+} 
+ /* @media (min-width: 768px) {
+    .heading {
+      font-size: 20px;
+    }
+    .wave1
+    {
+      font-size: 20px;
+    }
+  } */
+.heading
+{
+ 
+}
+.amt1
+{
+  color: aqua;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav1{
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+.navbar1,.heading
+{
+     color: rgb(31, 123, 120);
+     
+}
+.navbar1{
+  font-size: 17px;
+}
+
+.ice1,.fruit1,.hot1
+{
+text-decoration: none;
+color: white;
+font-size: 20px;
+ 
+}
+.ice1:hover
+{
+  text-decoration: underline;
+   color: rgb(144, 255, 251);
+}
+.fruit1:hover
+{
+  text-decoration: underline;
+   color: rgb(144, 255, 251);
+}
+.hot1:hover{
+   text-decoration: underline;
+   color: rgb(144, 255, 251);
+}
+
+
+#box2
+{
+    display: none;
+}
+#box3
+{
+    display: none;
+}
+.nav1.active {
+  font-weight: bold;
+  color: #26ded5;
+  border-bottom: 2px solid #26ded5;
+}
+#drinkmenu.active1
+{
+  background-color: rgb(31, 123, 120);
+  color: white;
+  cursor: pointer;
+}
+.navbar1 {
+  cursor: pointer;
+  background-color: white;
+}
+.navbar1:hover
+{
+  background-color:rgb(31, 123, 120) ;
+  color: white;
+}
+
+.about1
+{
+  color: rgb(13, 247, 239) ;
+}
+.i1 {
+background: transparent;
+color: white;
+border-bottom: 2px solid white;
+border-top: none  ;
+border-right: none;
+border-left: none;
+
+}
+.i2
+{
+  background: transparent; 
+ color: white;
+ border-bottom: 2px solid white;
+border-top: none  ;
+border-right: none;
+border-left: none;
+}
+.but1{
+  color: #26ded5;
+  background-color: white;
+}
+input::placeholder {
+  color: white
+}
+textarea::placeholder
+{
+  color: white;
+}
